@@ -20,4 +20,6 @@ TimeWell is a productivity tool that helps users track and analyze how they spen
 3. View daily summary in the pie chart
 
 ## 🌐 Live Demo
-👉 [Your Deployed Link Here]  
+👉 [ https://projectmahe.github.io/TimeWell/ ]  
+👉 [ https://youtu.be/yNNHCb3lG6g ]  
+👉 [ https://vimeo.com/1104403965?share=copy ]  
