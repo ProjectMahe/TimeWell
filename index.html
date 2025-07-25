@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TimeWell</title>
+    <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+    <header>
+        <h1>⏳ TimeWell</h1>
+        <p>Track. Analyze. Optimize Your Day.</p>
+        <nav>
+            <a href="time-management-page\tips.html" class="nav-link">Time Management Tips & Motivation</a>
+        </nav>
+    </header>
+
+    <section id="activity-section">
+        <div id="live-clock"></div>
+        <h2>Start Tracking Activity</h2>
+        <div class="activity-buttons">
+            <button onclick="startTracking('Study')">📚 Study</button>
+            <button onclick="startTracking('Work')">💼 Work</button>
+            <button onclick="startTracking('Sleep')">🛌 Sleep</button>
+            <button onclick="startTracking('Entertainment')">🎮 Entertainment</button>
+            <button onclick="startTracking('Exercise')">🏃 Exercise</button>
+        </div>
+        <div id="timer-display">00:00:00</div>
+        <button id="stop-btn" onclick="stopTracking()">⏹️ Stop</button>
+    </section>
+
+    <section id="analytics">
+        <h2>Time Spent Today</h2>
+        <canvas id="chart"></canvas>
+    </section>
+
+    <footer>
+        <p>Made for Hackathon 💻⏰</p>
+        <p>&copy; 2025 All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
